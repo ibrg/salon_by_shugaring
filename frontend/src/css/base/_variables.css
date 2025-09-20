@@ -1,0 +1,40 @@
+:root {
+    /* Primary Brand Colors */
+    --primary-pink: #ff6b9d;
+    --primary-purple: #c44569;
+    --primary-gradient: linear-gradient(
+        135deg,
+        var(--primary-pink),
+        var(--primary-purple)
+    );
+
+    /* Text Colors */
+    --text-primary: #2c2c2c;
+    --text-secondary: #666;
+    --text-light: #999;
+    --text-white: #ffffff;
+
+    /* Background Colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #fafafa;
+    --bg-light-pink: #ffeef8;
+    --bg-light-blue: #f0f8ff;
+    --bg-gradient-light: linear-gradient(
+        135deg,
+        var(--bg-light-pink) 0%,
+        var(--bg-light-blue) 100%
+    );
+
+    /* Accent Colors */
+    --accent-pink-10: rgba(255, 107, 157, 0.1);
+    --accent-pink-20: rgba(255, 107, 157, 0.2);
+    --accent-pink-30: rgba(255, 107, 157, 0.3);
+
+    /* Font Weights */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    --font-black: 900;
+}
