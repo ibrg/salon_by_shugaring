@@ -95,10 +95,15 @@
     overflow: hidden;
     box-shadow: 0 20px 60px var(--shadow-medium);
     
+    
+}
+
+.hero-img__src {
     background-image: url('../../img/hero.png');
     background-size: cover;
     background-repeat: no-repeat; 
 }
+
 
 .hero-img::before {
     content: '';
