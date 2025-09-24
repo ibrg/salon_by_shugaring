@@ -1,0 +1,71 @@
+:root {
+    /* Primary Brand Colors */
+    --primary-pink: #ef5a9a;
+    --primary-purple: #d63384;
+    --primary-gradient: linear-gradient(135deg, var(--primary-pink), var(--primary-purple));
+    
+    /* Text Colors */
+    --text-primary: #2c2c2c;
+    --text-secondary: #6c757d;
+    --text-light: #adb5bd;
+    --text-white: #ffffff;
+    
+    /* Background Colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-light-pink: #fdf2f8;
+    --bg-light-beige: #faf7f5;
+    --bg-gradient-soft: linear-gradient(135deg, var(--bg-light-pink) 0%, var(--bg-light-beige) 50%, #f0f8ff 100%);
+    
+    /* Accent Colors */
+    --accent-pink-05: rgba(239, 90, 154, 0.05);
+    --accent-pink-10: rgba(239, 90, 154, 0.1);
+    --accent-pink-20: rgba(239, 90, 154, 0.2);
+    --accent-pink-30: rgba(239, 90, 154, 0.3);
+    --accent-purple-10: rgba(214, 51, 132, 0.1);
+    --accent-purple-20: rgba(214, 51, 132, 0.2);
+    
+    /* Border Colors */
+    --border-light: #f0f0f0;
+    --border-medium: #e9ecef;
+    --border-dark: #dee2e6;
+    
+    /* Shadow Colors */
+    --shadow-soft: rgba(0, 0, 0, 0.03);
+    --shadow-light: rgba(0, 0, 0, 0.06);
+    --shadow-medium: rgba(0, 0, 0, 0.12);
+    --shadow-pink: rgba(239, 90, 154, 0.15);
+    
+    /* Button Styles */
+    --btn-radius: 50px;
+    --btn-padding: 1rem 2rem;
+    
+    /* Typography */
+    --font-size-hero: 3.2rem;
+    --font-size-large: 1.4rem;
+    --font-size-medium: 1.1rem;
+    --font-size-small: 0.95rem;
+    
+    /* Font Weights */
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    --font-black: 900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: var(--text-primary);
+    overflow-x: hidden;
+    font-size: 18px;
+}
