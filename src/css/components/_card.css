@@ -22,7 +22,7 @@
     right: 0;
     height: 4px;
     background: var(--primary-gradient);
-    opacity: 0;
+    opacity: 0%;
     transition: opacity 0.3s ease;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .service-card:hover::before {
-    opacity: 1;
+    opacity: 100%;
 }
 
 .service-icon {
@@ -81,7 +81,7 @@
     background: #fff;
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
     display: flex;
     align-items: flex-start;
     gap: 1.5rem;

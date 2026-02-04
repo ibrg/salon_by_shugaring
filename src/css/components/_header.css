@@ -1,9 +1,10 @@
   /* Header */
+
   .header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgb(255 255 255 / 95%);
     backdrop-filter: blur(20px);
     z-index: 1000;
     padding: 1rem 0;
@@ -23,7 +24,6 @@
     font-size: 1.8rem;
     font-weight: var(--font-bold);
     background: var(--primary-gradient);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }

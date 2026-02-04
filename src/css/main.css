@@ -1,13 +1,11 @@
-@import './base/_variables.css';
-@import './components/_buttons.css';
-@import './components/_header.css';
-@import './components/_hero.css';
-@import './components/_card.css';
-@import './components/_from.css';
-@import './components/_future.css';
-@import './_media.css';
-
-
+@import url("./base/_variables.css");
+@import url("./components/_buttons.css");
+@import url("./components/_header.css");
+@import url("./components/_hero.css");
+@import url("./components/_card.css");
+@import url("./components/_from.css");
+@import url("./components/_future.css");
+@import url("./_media.css");
 
 .container {
     max-width: 1200px;
@@ -16,6 +14,7 @@
 }
 
 /* Services Section - обновлен под новый стиль */
+
 .services {
     padding: 6rem 0;
     background: var(--bg-primary);
@@ -46,9 +45,8 @@
     gap: 2rem;
 }
 
-
-
 /* About Section - мягкий стиль */
+
 .about {
     padding: 6rem 0;
     background: var(--bg-gradient-soft);
@@ -74,20 +72,17 @@
 }
 
 .about-img {
-    
-    background-image: url('../img/why_choose_us.png');
+    background-image: url("../img/why_choose_us.png");
     background-repeat: no-repeat;
+
     /* background-position: center; */
     background-size: cover;
-
 }
+
 .about-img::after {
-    content: '';
-    
+    content: "";
     background-color: transparent;
 }
-
-
 
 .contact {
     padding: 6rem 0;
@@ -125,6 +120,7 @@
 }
 
 /* Footer */
+
 .footer {
     background: #2c2c2c;
     color: white;

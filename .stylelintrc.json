@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "indentation": null,
+    "stylistic/indentation": null,
+    "no-empty-source": null,
+    "selector-class-pattern": null,
+    "color-function-notation": "modern",
+    "alpha-value-notation": "percentage"
+  }
+}

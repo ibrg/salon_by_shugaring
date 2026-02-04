@@ -1,9 +1,9 @@
 /* Mobile Responsive */
-@media (max-width: 784px) {
-
+@media (width <= 784px) {
     .about-container {
         grid-template-columns: 1fr !important;
     }
+
     .about-container .about-image {
         display: none;
     }
@@ -13,14 +13,16 @@
     }
 }
 
-@media (max-width: 948px) {
+@media (width <= 948px) {
     .nav-menu {
         display: none;
     }
+
     .hero-container {
         grid-template-columns: 1fr;
-        margin-top: 25rem;
+        margin-top: 29rem;
     }
+
     .contact-container {
         grid-template-columns: 1fr 1fr;
     }
