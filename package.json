@@ -12,6 +12,6 @@
   },
   "scripts": {
     "dev": "postcss src/css/main.css -o dist/styles.css --watch",
-    "build": "NODE_ENV=production postcss src/styles/main.css -o dist/styles.css"
+    "build": "NODE_ENV=production postcss src/css/main.css -o dist/styles.min.css"
   }
 }
