@@ -1,11 +1,25 @@
 {
-  "extends": ["stylelint-config-standard"],
+  "extends": "stylelint-config-standard",
   "rules": {
-    "indentation": null,
-    "stylistic/indentation": null,
-    "no-empty-source": null,
+    "indentation": 2,
+    "declaration-block-single-line-max-declarations": null,
+    "no-descending-specificity": null,
     "selector-class-pattern": null,
-    "color-function-notation": "modern",
-    "alpha-value-notation": "percentage"
-  }
+    "selector-id-pattern": null,
+    "custom-property-pattern": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["global", "local"]
+      }
+    ]
+  },
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "dist/**",
+    "node_modules/**"
+  ]
 }

@@ -1,5 +1,4 @@
 :root {
-    /* Primary Brand Colors */
     --primary-pink: #ef5a9a;
     --primary-purple: #d63384;
     --primary-gradient: linear-gradient(135deg, var(--primary-pink), var(--primary-purple));

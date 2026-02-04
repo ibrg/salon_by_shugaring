@@ -1,6 +1,4 @@
-  /* Header */
-
-  .header {
+.header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -56,4 +54,3 @@
 .nav-menu a:hover::after {
     width: 100%;
 }
-

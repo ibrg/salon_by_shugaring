@@ -1,7 +1,3 @@
-
-
-
-
 .service-card {
     background: var(--bg-primary);
     border-radius: 25px;
@@ -22,7 +18,7 @@
     right: 0;
     height: 4px;
     background: var(--primary-gradient);
-    opacity: 0%;
+    opacity: 0;
     transition: opacity 0.3s ease;
 }
 
@@ -32,7 +28,7 @@
 }
 
 .service-card:hover::before {
-    opacity: 100%;
+    opacity: 1;
 }
 
 .service-icon {
@@ -74,8 +70,6 @@
     line-height: 1.6;
     font-weight: var(--font-normal);
 }
-
-
 
 .contact-card {
     background: #fff;

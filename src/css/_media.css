@@ -1,5 +1,4 @@
-/* Mobile Responsive */
-@media (width <= 784px) {
+@media (width <=784px) {
     .about-container {
         grid-template-columns: 1fr !important;
     }
@@ -7,13 +6,13 @@
     .about-container .about-image {
         display: none;
     }
-    
+
     .contact-container {
         grid-template-columns: 1fr !important;
     }
 }
 
-@media (width <= 948px) {
+@media (width <=948px) {
     .nav-menu {
         display: none;
     }
@@ -26,5 +25,4 @@
     .contact-container {
         grid-template-columns: 1fr 1fr;
     }
-   
 }

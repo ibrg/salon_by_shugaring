@@ -72,7 +72,7 @@
 }
 
 .about-img {
-    background-image: url("../img/why_choose_us.png");
+    background-image: url("../src/img/why_choose_us.png");
     background-repeat: no-repeat;
 
     /* background-position: center; */
